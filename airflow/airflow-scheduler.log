@@ -1,0 +1,242 @@
+2024-09-12 06:39:17,374 INFO - Starting the scheduler
+2024-09-12 06:39:17,375 INFO - Processing each file at most -1 times
+2024-09-12 06:39:17,381 INFO - Launched DagFileProcessorManager with pid: 7271
+2024-09-12 06:39:17,383 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 06:39:17,387 INFO - Configured default timezone Timezone('UTC')
+2024-09-12 06:39:23,168 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, hi; q=0.8
+Referer: https://super-dollop-p667g9qpwg2rw5r.github.dev/
+X-Request-Id: b6e488a36a85352b20bb5da5191ac9d2
+X-Real-Ip: 10.240.2.131
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: super-dollop-p667g9qpwg2rw5r-8793.app.github.dev
+X-Forwarded-For: 10.240.1.166
+Proxy-Connection: Keep-Alive
+
+.
+2024-09-12 06:39:23,170 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-09-12 06:39:23,746 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, hi; q=0.8
+Referer: https://super-dollop-p667g9qpwg2rw5r-8793.app.github.dev/
+X-Request-Id: 315c4a817efc8059e6bae6f46e3eee82
+X-Real-Ip: 10.240.3.196
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: super-dollop-p667g9qpwg2rw5r-8793.app.github.dev
+X-Forwarded-For: 10.240.1.166
+Proxy-Connection: Keep-Alive
+
+.
+2024-09-12 06:39:23,747 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-09-12 06:39:29,474 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, hi; q=0.8
+Referer: https://super-dollop-p667g9qpwg2rw5r.github.dev/
+X-Request-Id: 0191547b8376fe70b5c3b00e609ddf10
+X-Real-Ip: 10.240.1.166
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: super-dollop-p667g9qpwg2rw5r-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-09-12 06:39:29,475 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-09-12 06:39:30,056 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, hi; q=0.8
+Referer: https://super-dollop-p667g9qpwg2rw5r-8793.app.github.dev/
+X-Request-Id: 29a9f792944185d25a0489dc5cc811c2
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: super-dollop-p667g9qpwg2rw5r-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-09-12 06:39:30,057 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-09-12 06:44:17,610 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 06:49:17,767 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 06:54:17,923 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 06:59:18,080 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:04:18,237 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:09:18,393 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:10:15,770 INFO - Exiting gracefully upon receiving signal 15
+2024-09-12 07:10:16,773 INFO - Sending Signals.SIGTERM to group 7271. PIDs of all processes in the group: [7271]
+2024-09-12 07:10:16,774 INFO - Sending the signal Signals.SIGTERM to group 7271
+2024-09-12 07:10:17,158 INFO - Process psutil.Process(pid=7271, status='terminated', exitcode=0, started='06:39:16') (7271) terminated with exit code 0
+2024-09-12 07:10:17,161 INFO - Sending Signals.SIGTERM to group 7271. PIDs of all processes in the group: []
+2024-09-12 07:10:17,161 INFO - Sending the signal Signals.SIGTERM to group 7271
+2024-09-12 07:10:17,162 INFO - Sending the signal Signals.SIGTERM to process 7271 as process group is missing.
+2024-09-12 07:10:17,162 INFO - Exited execute loop
+2024-09-12 07:10:40,302 INFO - Starting the scheduler
+2024-09-12 07:10:40,303 INFO - Processing each file at most -1 times
+2024-09-12 07:10:40,309 INFO - Launched DagFileProcessorManager with pid: 20449
+2024-09-12 07:10:40,310 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:10:40,315 INFO - Configured default timezone Timezone('UTC')
+2024-09-12 07:10:51,097 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, hi; q=0.8
+Referer: https://super-dollop-p667g9qpwg2rw5r.github.dev/
+X-Request-Id: d7eed4b4255c00b85847f0ac00c1c011
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: super-dollop-p667g9qpwg2rw5r-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-09-12 07:10:51,098 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-09-12 07:10:52,299 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9, hi; q=0.8
+Referer: https://super-dollop-p667g9qpwg2rw5r-8793.app.github.dev/
+X-Request-Id: 857ddea3ee44a889f8a42f1001c8192d
+X-Real-Ip: 10.240.2.131
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: super-dollop-p667g9qpwg2rw5r-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-09-12 07:10:52,299 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-09-12 07:15:40,402 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:20:40,456 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:25:40,523 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:30:40,586 INFO - Resetting orphaned tasks for active dag runs
+2024-09-12 07:35:40,642 INFO - Resetting orphaned tasks for active dag runs
